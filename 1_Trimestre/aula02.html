@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aula 02 - Formulários</title>
+  </head>
+  <body>
+
+      <!-- PORQUE USAR CLASSE EM HTML?
+      SERVE PARA IDENTIFICAR, FORMATAR, MANIPULAR UM CONJUNTO DE ELEMENTOS USANDO O CSS, POR EXEMPLO -->
+
+      <div class="">
+        <h3>Formulários</h3>
+
+        <form class="" action="" method="post">
+          <label for="">Nome:</label><br>
+          <input type="text" name="nome" value=""><br>
+
+          <br>
+
+          <label for="">Sexo:</label><br>
+          <input type="radio" name="sexo" value="masculino" id="radioMasc">
+          <label for="radioMasc">Masculino</label><br>
+
+          <input type="radio" name="sexo" value="feminino" id="radioFem">
+          <label for="radioFem">Feminino</label><br>
+
+          <br>
+
+          <label for="">Interesses:</label><br>
+          <!-- checkbox tambem deve ter o mesmo name para todo conjuntos -->
+
+          <input type="checkbox" name="interesse[]" value="esporte" id="chExp">
+          <label for="chEsp">Esportes</label><br>
+
+          <input type="checkbox" name="interesse[]" value="carros" id="chCar">
+          <label for="chCar">Carros</label><br>
+
+          <input type="checkbox" name="interesse[]" value="motos" id="chMot">
+          <label for="chMot">Motos</label><br>
+
+          <br>
+
+          <label for="">Cidade</label><br>
+
+          <select class="" name="cidade">
+            <option value="">Selecione uma Cidade</option>
+            <option value="1">Paranavaí</option>
+            <option value="2">Maringá</option>
+            <option value="3">Londrina</option>
+            <option value="4">Cianorte</option>
+            <option value="5">Umuarama</option>
+
+          </select>
+
+
+
+          <br><br>
+          <input type="submit" name="" value="Enviar">
+
+        </form>
+
+      </div>
+  </body>
+</html>
